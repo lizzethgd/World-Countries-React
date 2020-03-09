@@ -1,0 +1,9 @@
+/*const myApi = '1c6629375e004bd3a6d90792099d7f45'
+  const city = this.props.city
+  const url = `https://api.weatherbit.io/v2.0/current?city=${city}&key=${myApi}`
+  fetch(url)
+  .then(response => response.json())
+  .then(data => { if(data.data!==undefined)  
+    {const temp = data.data[0].temp
+        console.log(temp)
+     this.setState({weather: city+' weather '+temp+' °C'}) } else { this.setState({weather: 'City not found by the weather API'})}}) */
